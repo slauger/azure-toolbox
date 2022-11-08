@@ -6,6 +6,7 @@ ARG HELM_VERSION=3.10.1
 # renovate: datasource=github-tags depName=kubernetes/kubernetes
 ARG KUBECTL_VERSION=1.25.3
 
+# renovate: datasource=github-tags depName=ahmetb/kubectx
 ARG KUBECTX_VERSION=0.9.4
 
 RUN yum install -y \
